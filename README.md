@@ -19,7 +19,7 @@ Using the long-term steady-state distribuion and the mapping form the other scri
 
 The following OpenFOAM solvers are provided:
 - **plotParticleFoam**
-This "solver" is a simplified version of the particleFoam solver which just plots the particles in the system without updating there postions or doing any correction.
+This "solver" is a simplified version of the particleFoam solver which just plots the particles in the system without updating their postions or doing any correction.
 
 - **growthParticleFoam**
 Should have been a very complicated solver which should have added functionality to the particleFoam solver so that the growth of new cells in a system should have been modeled, however there where a few diffuclties which ulitmately did not allow the solver to operate as intended. Further, this approach would not be computatonally efficient which is why the concept was canceled. 
