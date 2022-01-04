@@ -6,7 +6,7 @@ The following python scripts are provided:
 - **mapping.py**
 Generates a regime mapping based for hydrodynamic parameters shear stress, normal stress, and kolmogorov length scale. Further, a mapping for the substrate uptake rate is generated. Finally, this script provides two growth regime mappings which average or sum-up the previously described approches.
 
-- **generate_particlePositions.py**
+- **generate_cloudPositions.py**
 This script generates a particlePostions file for OpenFOAM based on an initial Grid study case.
 
 - **particlelifelines.py**
