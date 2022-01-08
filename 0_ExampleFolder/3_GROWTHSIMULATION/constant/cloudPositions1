@@ -1,0 +1,19 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+ =========                 |
+  \      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \    /   O peration     | Website:  https://openfoam.org
+    \  /    A nd           | Version:  9
+     \/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       vectorField;
+    object      cloudPositions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+(
+(-0.0225492 0.0225492 -0.0345389)
+(-0.00204815 0.0182234 0.0415636)
