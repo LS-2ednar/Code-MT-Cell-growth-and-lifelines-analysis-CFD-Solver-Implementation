@@ -3,6 +3,11 @@
 ---
 ## Content
 
+Examples for the three used examples.
+
+---
+---
+
 The following OpenFOAM solvers are provided:
 - **plotParticleFoam**
 This "solver" is a simplified version of the particleFoam solver which just plots the particles in the system without updating their postions or doing any correction.
