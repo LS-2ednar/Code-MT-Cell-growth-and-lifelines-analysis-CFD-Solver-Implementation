@@ -1,5 +1,8 @@
 # Cell growth and lifelines analysis CFD Solver Implementation
 ---
+
+![](https://i.imgur.com/zBextdv.png)
+
 ---
 ## Content
 
