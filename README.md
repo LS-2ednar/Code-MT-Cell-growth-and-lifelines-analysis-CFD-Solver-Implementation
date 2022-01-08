@@ -4,8 +4,7 @@
 ## Content
 
 - **00_ExampleFolder**
-- This contains a complete Code example:
-- Run the code according to the folder Order! 
+- This contains a complete Code example: Run the code according to the folder Order! 
 - In 1_MAPPING --> mapping1.sh, mapping2.sh
 - In 2_Tracking --> tracking1.sh, tracking2.sh, tracking3.sh
 - In 3_GROWTHSIMULATION --> growthSim1.sh, growthSim2.sh
