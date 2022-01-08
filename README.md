@@ -39,3 +39,19 @@ This script tracks the trajectories of particles in the system and maps them to 
 Generates a regime mapping based for hydrodynamic parameters shear stress, normal stress, and kolmogorov length scale. Further, a mapping for the substrate uptake rate is generated. Finally, this script provides two growth regime mappings which average or sum-up the previously described approches.
 
  ---
+
+---
+Adding funcionality to the mapping.py file
+---
+- Additional attributes to the Organism class are made in lines 10 to 31
+- Function calculate_media_dist (lines 312 to 344) provides a nice overview of functionalities to write your own function.
+- A function to write a new file should look like the write_kolmogorov function in lines 346 to 392
+- Finally to adept the growth map generation function write_all_zones (lines 530 to 937) in line 798 and 799 needs to be modified.
+
+
+Hinzufügen von Attributen der Organismen erfolgt in der Organism class zwischen Zeilen 10 und 31
+In der Funktion wrtie_all_zones kann ein neuer parameter hinzugefügt werden. Der Dateninput sollte vom Typ list sein. Die interpretation des parameters erfolgt dann analog dem Beispiel zwischen Zeilen 721 und 736. 
+Damit Daten auch geschrieben werden können muss ein neuer Kopfteil des Parameterfiles geschrieben werden. Ein beispiel dafür ist in Zeile 544 bis 563 zu finden. Und der schreib Prozess kann denn Zeilen 803 bis 817 entnohmen werden.
+Um neue Kombinierte zonen zu beschreiben werden Zeilen 798 und 799 modifiziert.
+
+
