@@ -25,7 +25,7 @@ boundaryField
         type            slip;
     }
 
-    STIRRER // this should be checked again
+    STIRRER 
     {
         type            rotatingWallVelocity;
 	origin		(0 0 0);
