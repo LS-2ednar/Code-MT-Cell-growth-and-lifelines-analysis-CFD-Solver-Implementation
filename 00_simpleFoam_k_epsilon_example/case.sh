@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --job-name=100RPM_8C
+#SBATCH --job-name=EXAMPLE_SINGLEPHASE_K_EPSILON
 #
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
@@ -9,7 +9,7 @@
 #SBATCH --partition=single
 #SBATCH --qos=single
 #SBATCH --mail-type=ALL								# BEGIN, END, FAIL, REQUEUE, ALL
-#SBATCH --mail-user=schauluk@students.zhaw.ch		# Email adress
+#SBATCH --mail-user=YOUR@MAIL.ADDRESS		# Email adress
 
 module load USS/2020 
 module load slurm
